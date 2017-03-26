@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/depmap/errors/issues"
   },
-  "homepage": "https://github.com/depmap/errors#readme"
+  "homepage": "https://github.com/depmap/errors#readme",
+  "dependencies": {
+    "chalk": "^1.1.3"
+  }
 }
