@@ -1,4 +1,5 @@
 const chalk = require('chalk')
+
 module.exports = { error, warn }
 
 function error (error) {

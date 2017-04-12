@@ -3,20 +3,20 @@
   "version": "1.0.0",
   "description": "Prettify Errors",
   "main": "index.js",
+  "dependencies": {
+    "chalk": "^1.1.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/depmap/errors#readme",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/depmap/errors.git"
   },
-  "author": "",
+  "author": "Henry Snopek <hhsnopek@gmail.com> (http://hhsnopek.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/depmap/errors/issues"
-  },
-  "homepage": "https://github.com/depmap/errors#readme",
-  "dependencies": {
-    "chalk": "^1.1.3"
   }
 }
