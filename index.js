@@ -2,7 +2,7 @@ const chalk = require('chalk')
 
 module.exports = { error, warn }
 
-function error (error) {
+function error(error) {
   let tmp = error.stack.split('\n')
   let stack = { msg: tmp[0] }
   tmp.shift()
@@ -16,4 +16,6 @@ function error (error) {
   process.exit(1)
 }
 
-function warn (warning) { console.log(chalk.yellow(warning)) }
+function warn(warning) {
+  console.log(chalk.yellow(JSON.stringify(warning)))
+}
