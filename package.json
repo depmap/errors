@@ -1,6 +1,6 @@
 {
   "name": "@depmap/errors",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.0",
   "description": "Prettify Errors",
   "main": "index.js",
   "dependencies": {
